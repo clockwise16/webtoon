@@ -1,0 +1,5 @@
+
+<h1><%= @date %></h1>
+<P><% @movies.each do |m| %>
+    <%= m["rank"] %>.<%= m["title"] %> <br>
+<% end %></P>

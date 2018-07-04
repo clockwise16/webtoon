@@ -1,0 +1,9 @@
+<h1>웹툰 속 세상</h1>
+<% @webtoons.each do |w| %>
+    <hr>
+    <P><img src="<%= w.image %>"> <br>
+       <%= w.title %> <br>
+       <%= w.intro %> <br>
+       <%= w.genre %> <br>
+       <%= w.score %> </P> 
+<% end %>
